@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front_page"
+    tools:context=".CaptureVideo"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="104dp"
+        android:text="Welcome!!"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginRight="500dp"
+        android:layout_marginTop="04dp"
+        android:text="Please click on capture video button to start!"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp" />
+
+    <Button
+        android:id="@+id/CaptVideo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="55dp"
+        android:onClick="captureVideo"
+        android:text= "Capture Video"/>
+
+    <Button
+        android:id="@+id/PlayVideo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="55dp"
+        android:onClick="playVideo"
+        android:text="Play Video"
+        />
+</LinearLayout>
