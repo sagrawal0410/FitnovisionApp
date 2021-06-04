@@ -23,7 +23,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:layout_marginTop="333dp"
-        android:text="Add Friend to Workout" />
+        android:text="2+2 is for minus 1 thats three quick math" />
 
     <Button
         android:layout_width="wrap_content"
