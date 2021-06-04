@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="126dp"
         android:text="Multi Player"
-        android:textSize="30dp" />
+        android:textSize="15dp" />
 
     <Button
         android:id="@+id/addFriend"
