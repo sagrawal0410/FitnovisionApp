@@ -13,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="126dp"
-        android:text="Multi Player TEST"
+        android:text="Multi Player IF YOU SEE THIS, IT WORKED"
         android:textSize="20dp" />
 
     <Button
